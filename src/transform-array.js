@@ -27,7 +27,7 @@ function transform(arr) {
   }
 
   let newArr = [];
-  
+
   for (let i = 0; i < arr.length; i++) {
 
     if (typeof (arr[i]) === 'number') {
@@ -110,10 +110,8 @@ function transform(arr) {
       }
     }
   }
-  return newArr;
+    return newArr;
 }
-
-
 
 module.exports = {
   transform
